@@ -1,0 +1,58 @@
+body {
+  background-color: #7359dc;
+  font-family: "Trip Sans Med";
+  align-items: center;
+}
+.container {
+  margin-right: 100px;
+  margin-left: 100px;
+  margin-top: 250px;
+}
+.ensembleDuTableau {
+  width: 300px;
+  height: 450px;
+  background-color: #e5e5e5;
+  margin: auto;
+  padding: 40px;
+  border-radius: 10px;
+  justify-content: space-between;
+}
+.intérieurDuTableau {
+  flex: 2;
+}
+.texteTitre {
+  display: flex;
+  margin-bottom: 10px;
+  width: 100%;
+  font-weight: bold;
+  justify-content: center;
+}
+.cases {
+  margin-top: 20px;
+  width: 100%;
+  height: 30px;
+  background-color: white;
+  border-radius: 3px;
+  border: none;
+  font-family: "Trip Sans Med";
+}
+.grandeCase {
+  margin-top: 20px;
+  height: 150px;
+  width: 100%;
+  background-color: white;
+  border-radius: 3px;
+  border: none;
+  font-family: "Trip Sans Med";
+}
+.texteGrandeCase {
+  display: flex;
+}
+.buttonEnvoi {
+  width: 100%;
+  height: 30px;
+  margin-top: 20px;
+  border-radius: 6px;
+  background-color: #7359dc;
+  color: white;
+}

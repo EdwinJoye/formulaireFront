@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="./assets/css/font-icons.css">
+  <link rel="stylesheet" href="./assets/css/fonts.css">
+  <link rel="stylesheet" href="./assets/css/reset.css" />
+  <link rel="stylesheet" href="./assets/css/style.css" />
+  <script src="https://kit.fontawesome.com/bb54014cd5.js"></script>
+
+
+  <!-- Import de axios -->
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+  <!-- Import du fichier main.js -->
+  <script src="./formulaire.js"></script>
+
+</head>
+
+<body class="container">
+  <main class="ensembleDuTableau">
+    <nav class="intérieurDuTableau">
+      <div class="texteTitre">
+        <p class="texteTitre"> Formulaire de contact</p>
+      </div>
+      <form>
+        <div>
+          <input class="cases" type="text" id="prénom" placeholder="Prénom">
+        </div>
+        <div>
+          <input class="cases" type="text" id="om" placeholder="Nom">
+        </div>
+        <div>
+          <input class="cases" type="email" id="email" placeholder="Email">
+        </div>
+        <div>
+          <input class="cases" type="text" id="sujet" placeholder="Sujet">
+        </div>
+        <div>
+          <textarea class="grandeCase" type="text" id="message" placeholder="Votre message ici..."></textarea>
+        </div>
+        <div>
+          <button class="buttonEnvoi">Envoyer le message </button>
+        </div>
+      </form>
+    </nav>
+  </main>
+</body>
+
+</html>
