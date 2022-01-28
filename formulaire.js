@@ -19,7 +19,10 @@ document.addEventListener("DOMContentLoaded", () => {
       console.log("axios ====>", axios);
 
       //2 Envoyer à un serveur les informations
-      const response = await axios.post("http://127.0.0.1:4000/form", data);
+      const response = await axios.post(
+        "https://formulaireback2.herokuapp.com/form",
+        data
+      );
       console.log(response.data);
 
       //   const response = await axios.get("http://localhost:4000/hello");
